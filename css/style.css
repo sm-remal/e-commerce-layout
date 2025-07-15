@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Share items */
+.primary-btn{
+    background-color: black;
+    color: white;
+    width: 165px;
+    height: 50px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+
+nav{width: 1125px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 60px;
+    margin: 50px auto;
+}
+ul{
+    display: flex;
+    gap: 30px
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+nav input{
+    width: 450px;
+    height: 40px;
+    border-radius: 100px;
+    font-size: 16px;
+    padding-left: 40px;
+}
+/* Banner Style */
+.banner-container{
+    width: 1210px;
+    height: 450px;
+    margin: 60px auto;
+    background-color: #FEEAE9;
+    border-radius: 12px;
+}
+.banner{
+    display: flex;
+    gap: 140px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 65px;
+}
+.banner-title h1{
+    padding: 8px 0;
+    width: 456px;
+    font-weight: 800;
+    font-size: 40px;
+}
+.banner-title h2{
+    color: #FF2F81;
+    padding: 8px 0;
+    width: 456px;
+    font-size: 35px;
+}
+.banner-title p{
+    padding: 8px 0;
+    width: 456px;
+}
+.banner-title button{
+    background-color: #FF2F81;
+    margin-top: 8px;
+}
+
+/* Categories */
+.categories{
+  width: 1128px;
+  height: 198px;
+  margin: 64px auto ;
+}
+.categories h2{
+    font-size: 36px;
+    padding: 24px 0 24px 0;
+}
+/* Share */
+.categories-item-share{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 358px;
+    height: 120px;
+    font-size: 24px;
+    color: white;
+    padding: 33px 46px;
+    border-radius: 12px;
+}
+.item-1{
+    background-color: #FFB329;
+}
+.item-2{
+    background-color: #FF2F81;
+}
+.item-3{
+    background-color: #403AFB;
+}
+.container{
+    display: flex;
+    gap: 50px;
+}
+/* Share-Card */
+.primary-card{
+    width: 360px;
+    height: 550px;
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 12px;
+}
+.primary-card h3{
+    font-size: 24px;
+    font-weight: 600;
+}
+/* Card Style */
+.card-section{
+    background-color: #F4F4F4;
+    width: 1220px;
+    height: 1480px;
+    margin: 0 auto;
+    border-radius: 14px;
+}
+.top-title{
+    display: flex;
+    justify-content: space-between;
+    width: 1120px;
+    padding: 50px 0;
+    margin: 0 auto;
+}
+.card-section h2{
+    font-size: 36;
+    font-weight: 600;
+}
+.shoes-card{
+    /* background-color: white; */
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.shoes-card h3{
+    font-size: 24px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+.shoes-card p{
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    margin: 0 auto;
+}
+.shoes-card h2{
+    font-size: 25px;
+    padding: 10px;
+}
+.shoes-card button{
+    margin-top: 14px;
+}
+/* Backpack */
+.backpack-card{
+    /* background-color: white; */
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.backpack-card h3{
+    font-size: 24px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+.backpack-card p{
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    margin: 0 auto;
+}
+.backpack-card h2{
+    font-size: 25px;
+    padding: 10px;
+}
+.backpack-card button{
+    margin-top: 14px;
+}
